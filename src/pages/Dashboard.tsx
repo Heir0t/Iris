@@ -79,13 +79,7 @@ const Dashboard = () => {
         ) : plantations.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 text-center">
             <div className="w-32 h-32 mb-6 text-muted-foreground">
-              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M100 50 C 80 50, 70 70, 70 90 C 70 110, 80 130, 100 140 C 120 130, 130 110, 130 90 C 130 70, 120 50, 100 50 Z M 100 60 L 105 100 L 100 140 L 95 100 Z"
-                  fill="currentColor"
-                  opacity="0.3"
-                />
-              </svg>
+              <img className="opacity-30" src="../../public/assets/gota.png" alt="gota"/>
             </div>
             <p className="text-lg text-muted-foreground mb-2">
               Nenhuma plantação cadastrada

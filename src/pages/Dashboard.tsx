@@ -79,7 +79,7 @@ const Dashboard = () => {
         ) : plantations.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 text-center">
             <div className="w-32 h-32 mb-6 text-muted-foreground">
-              <img className="opacity-30" src="../../public/assets/gota.png" alt="gota"/>
+              <img className="opacity-30" src="assets/gota.png" alt="gota"/>
             </div>
             <p className="text-lg text-muted-foreground mb-2">
               Nenhuma plantação cadastrada

@@ -31,7 +31,7 @@ const Settings = () => {
         .single();
 
       if (data) {
-        setFullName(data.full_name || "");
+        setFullName(data.full_name || "");  
       }
     }
   };
